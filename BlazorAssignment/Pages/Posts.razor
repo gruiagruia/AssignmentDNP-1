@@ -1,0 +1,42 @@
+@page "/Posts"
+@using Domain.Contracts
+@using Domain.Models
+@inject IPostService PostService
+
+<h3>Posts</h3>
+
+@if (posts == null)
+    {
+        <p>
+            <em>Loading...</em>
+        </p>
+    }
+    else if (!posts.Any())
+    {
+        <p>
+            <em>No Post items exist. Please add some.</em>
+        </p>
+    }
+    else
+    {
+        
+            @foreach (var item in posts)
+            {
+                <div style="border: solid" >
+                    <h1 style="text-decoration: underline">@item.Title</h1>
+                    <h5 style="color: darkgreen">Author: @item.Owner</h5>
+                    <p>@item.Body</p>
+                </div>
+                
+            }
+            
+    }
+
+@code {
+    private ICollection<Post> posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await PostService.GetAsync();
+    }
+}

@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Components.Web;
 using BlazorAssignment.Data;
 using BlazorAssignment.Services;
 using BlazorAssignment.Services.Impls;
+using Domain.Contracts;
+using FileData.DataAccess;
 using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,8 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<AuthenticationStateProvider, AuthStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthServiceImpl>();
 builder.Services.AddScoped<IUserService,InMemoryUserService>();
+builder.Services.AddScoped<FileContext>();
+builder.Services.AddScoped<IPostService, PostFileDAO>();
 
 var app = builder.Build();
 

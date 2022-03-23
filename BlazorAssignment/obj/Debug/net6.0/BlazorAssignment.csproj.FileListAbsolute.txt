@@ -27,3 +27,9 @@ E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\obj\Debug\net6.0\ref\BlazorAssi
 E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\obj\Debug\net6.0\BlazorAssignment.pdb
 E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\obj\Debug\net6.0\BlazorAssignment.genruntimeconfig.cache
 E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\obj\Debug\net6.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\bin\Debug\net6.0\Domain.dll
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\bin\Debug\net6.0\FileData.dll
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\bin\Debug\net6.0\FileData.pdb
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\bin\Debug\net6.0\Domain.pdb
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\obj\Debug\net6.0\BlazorAssignment.csproj.CopyComplete
+E:\VIA\DNP\DNP1\AssignmentDNP-1\BlazorAssignment\bin\Debug\net6.0\posts.json

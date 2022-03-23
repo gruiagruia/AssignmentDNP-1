@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "BlazorAssignment/1.0.0": {
+        "dependencies": {
+          "FileData": "1.0.0"
+        },
         "runtime": {
           "BlazorAssignment.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "FileData/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "FileData.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BlazorAssignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileData/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

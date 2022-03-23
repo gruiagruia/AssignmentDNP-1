@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "FileData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileData.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "FileData/1.0.0": {
+      "type": "project",
+      "path": "../FileData/FileData.csproj",
+      "msbuildProject": "../FileData/FileData.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "FileData >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Gruia\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj": {
+              "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
