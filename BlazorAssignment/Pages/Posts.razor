@@ -3,7 +3,7 @@
 @using Domain.Models
 @inject IPostService PostService
 
-<h3>Posts</h3>
+<h3 class="heading">Posts</h3>
 
 @if (posts == null)
     {
@@ -22,10 +22,10 @@
         
             @foreach (var item in posts)
             {
-                <div style="border: solid" >
-                    <h1 style="text-decoration: underline">@item.Title</h1>
-                    <h5 style="color: darkgreen">Author: @item.Owner</h5>
-                    <p>@item.Body</p>
+                <div class="container" >
+                    <h1 class="title">@item.Title</h1>
+                    <h5 class="author">Author: @item.Owner</h5>
+                    <p class="text">@item.Body</p>
                 </div>
                 
             }
