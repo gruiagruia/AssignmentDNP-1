@@ -1,9 +1,10 @@
 using BlazorAssignment.Authentication;
 using BlazorAssignment.Services;
 using BlazorAssignment.Services.Impls;
-using Domain.Contracts;
+using Application.Contracts;
 using FileData.DataAccess;
 using Microsoft.AspNetCore.Components.Authorization;
+using IPostService = Application.Contracts.IPostService;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,9 @@
 @page "/Posts"
-@using Domain.Contracts
-@using Domain.Models
+@using Application.Contracts
+@using Application.Entities
 @inject IPostService PostService
+@inject IJSRuntime JSRuntime;
+@inject NavigationManager navMgr
 
 <h3 class="heading">Posts</h3>
 
@@ -22,7 +24,7 @@
         
             @foreach (var item in posts)
             {
-                <div class="container" >
+                <div class="container" @onclick="()=>OpenPost(item.Id)">
                     <h1 class="title">@item.Title</h1>
                     <h5 class="author">Author: @item.Owner</h5>
                     <p class="text">@item.Body</p>
@@ -34,9 +36,16 @@
 
 @code {
     private ICollection<Post> posts;
-
+    
     protected override async Task OnInitializedAsync()
     {
         posts = await PostService.GetAsync();
     }
+
+    private void OpenPost(int id)
+    {
+        navMgr.NavigateTo($"/ForumPost/{id}");
+    }
+
+   
 }

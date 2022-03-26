@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "BlazorAssignment/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "FileData": "1.0.0"
         },
         "runtime": {
           "BlazorAssignment.dll": {}
+        }
+      },
+      "Application/1.0.0": {
+        "runtime": {
+          "Application.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -21,6 +27,7 @@
       },
       "FileData/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0"
         },
         "runtime": {
@@ -31,6 +38,11 @@
   },
   "libraries": {
     "BlazorAssignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

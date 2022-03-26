@@ -1,5 +1,5 @@
-using Domain.Contracts;
-using Domain.Models;
+using Application.Contracts;
+using Application.Entities;
 
 namespace FileData.DataAccess;
 

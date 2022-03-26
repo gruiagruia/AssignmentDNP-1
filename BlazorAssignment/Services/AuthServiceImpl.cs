@@ -31,6 +31,11 @@ public class AuthServiceImpl : IAuthService
         OnAuthStateChanged?.Invoke(principal);
     }
 
+    public async Task RegisterAsync(string username, string password)
+    {
+        userService.AddUserAsync(username,password);
+    }
+
     public async Task LogoutAsync()
     {
         await ClearUserFromCacheAsync();
@@ -110,9 +115,7 @@ public class AuthServiceImpl : IAuthService
         {
             new Claim(ClaimTypes.Name, user.Name),
             new Claim("Role", user.Role),
-            new Claim("SecurityLevel", user.SecurityLevel.ToString()),
-            new Claim("BirthYear", user.BirthYear.ToString()),
-            new Claim("Domain", user.Domain)
+            new Claim("SecurityLevel", user.SecurityLevel.ToString())
         };
 
         return new ClaimsIdentity(claims, "apiauth_type");

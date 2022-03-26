@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -16,6 +26,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0"
         },
         "compile": {
@@ -28,6 +39,11 @@
     }
   },
   "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -41,6 +57,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Application >= 1.0.0",
       "FileData >= 1.0.0"
     ]
   },
@@ -76,6 +93,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj": {
+              "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj"
+            },
             "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj": {
               "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj"
             }

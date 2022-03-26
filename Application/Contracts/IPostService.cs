@@ -1,6 +1,6 @@
-using Domain.Models;
+using Application.Entities;
 
-namespace Domain.Contracts;
+namespace Application.Contracts;
 
 public interface IPostService
 {
