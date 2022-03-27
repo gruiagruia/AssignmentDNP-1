@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Entities\\Entities.csproj": {}
+  },
+  "projects": {
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Gruia\\.nuget\\packages\\",
+        "outputPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gruia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\BlazorAssignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\BlazorAssignment.csproj",
+        "projectName": "BlazorAssignment",
+        "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\BlazorAssignment.csproj",
+        "packagesPath": "C:\\Users\\Gruia\\.nuget\\packages\\",
+        "outputPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gruia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj"
+              },
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Gruia\\.nuget\\packages\\",
+        "outputPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gruia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Gruia\\.nuget\\packages\\",
+        "outputPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gruia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj"
+              },
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\BlazorAssignment.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\BlazorAssignment\\BlazorAssignment.csproj"
+              },
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj",
+        "projectName": "FileData",
+        "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\FileData.csproj",
+        "packagesPath": "C:\\Users\\Gruia\\.nuget\\packages\\",
+        "outputPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\FileData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gruia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Application\\Application.csproj"
+              },
+              "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\VIA\\DNP\\DNP1\\AssignmentDNP-1\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
